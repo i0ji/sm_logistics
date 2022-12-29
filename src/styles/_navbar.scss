@@ -1,0 +1,29 @@
+.navbar {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+
+  .navbar__top-block {
+    height: 45px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .navbar__bot-block {
+    height: 100px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+
+  }
+}
