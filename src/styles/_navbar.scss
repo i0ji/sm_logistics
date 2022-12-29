@@ -1,6 +1,7 @@
 .navbar {
   font-family: Roboto, sans-serif;
   font-weight: 400;
+  padding: 0;
 
   .navbar__top-block {
     height: 45px;
@@ -23,7 +24,5 @@
     line-height: 16px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-
-
   }
 }
