@@ -21,18 +21,31 @@
         text-decoration: none;
       }
 
-      a:visited {
-        color: #e0dcdc;
+      .lang {
+        font-size: 13px;
       }
     }
-  }
 
+
+  }
   .navbar__bot-block {
     height: 100px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
+
+    .col-8 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      .navbar__left-side {
+        color: #FFFFFF;
+      }
+
+
+    }
   }
 }
