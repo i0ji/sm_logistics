@@ -1,0 +1,37 @@
+// ---------- HEADER
+.header {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+
+  // ---------- HEADER__TOP-LINE
+  &__top-line {
+    height: 45px;
+
+    .col {
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a,
+      a:active {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .active-lang {
+        opacity: 1;
+       }
+
+      .deactive-lang {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  // ---------- HEADER__BOT-LINE
+  &__bot-line {
+    height: 100px;
+  }
+}

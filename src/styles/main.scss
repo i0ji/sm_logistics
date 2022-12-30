@@ -1,7 +1,13 @@
 // ---------- IMPORT LIST ----------
 @import 'reset';
 @import 'color';
-@import 'navbar';
+@import 'header';
 @import 'image-section';
+
+
+// ---------- COMMON-SETTINGS
+* {
+  font-family: Roboto,sans-serif;
+}
 
 
