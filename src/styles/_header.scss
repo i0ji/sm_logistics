@@ -1,4 +1,4 @@
-// ---------- HEADER
+// ---------- HEADER ----------
 .header {
   font-weight: 400;
   font-size: 12px;
@@ -60,7 +60,6 @@
     align-items: center;
   }
 
-
   ul {
     padding-left: 48px;
 
@@ -75,7 +74,7 @@
   }
 }
 
-
+// ---------- MEDIA-QUERIES ----------
 @media (max-width: 416px) {
   .header__bot-line {
     height: 200px;
@@ -102,12 +101,3 @@
     }
   }
 }
-
-//@media (max-width: 1000px) {
-//  .header {
-//    .space-div {
-//      display: none;
-//    }
-//  }
-//}
-

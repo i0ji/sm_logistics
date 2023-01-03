@@ -1,3 +1,4 @@
+// ---------- IMAGE-BLOCK ----------
 .image-section {
   height: 620px;
   background-image: url('../img/intro.jpg');
@@ -7,8 +8,8 @@
   justify-content: center;
   align-items: center;
 
-  div {
-    display: flex;
+  .col-6 {
+    display: inline-block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -16,17 +17,14 @@
     height: 245px;
     padding-bottom: 10px;
 
+    .common-title-l {
+      font-size: calc(14px + 2.8vw);
+      line-height: 6vw;
+    }
+
     p {
       color: #ffffff;
       text-align: center;
-    }
-  }
-}
-
-@media (max-width: 1500px) {
-  .image-section {
-    div {
-      border: none;
     }
   }
 }

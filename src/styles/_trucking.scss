@@ -1,0 +1,51 @@
+// ---------- TRUCKING-BLOCK ----------
+.container-fluid {
+  padding: 0;
+}
+
+.trucking-block {
+  height: 561px;
+  display: flex;
+  justify-content: center;
+
+  div {
+    height: 100%;
+    padding: 0;
+  }
+
+  &__left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+
+    hr {
+      color: $brand-gold;
+      width: 90px;
+      height: 6px;
+      border-width: 6px;
+    }
+
+  }
+
+  button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: $brand-gold;
+    width: 220px;
+    height: 55px;
+    border: none;
+    transition: .2s all;
+  }
+
+  button:hover,
+  button:active {
+    transform: scale(0.98);
+    opacity: 0.9;
+  }
+}

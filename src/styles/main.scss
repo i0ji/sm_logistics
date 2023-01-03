@@ -3,11 +3,16 @@
 @import 'color';
 @import 'header';
 @import 'image-section';
+@import 'trucking';
 
 
 // ---------- COMMON-SETTINGS
 * {
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .common-title-l {
@@ -19,6 +24,15 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+
+.common-title-m {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
 .common-text-m {
   font-weight: 400;
   font-size: 18px;
