@@ -6,4 +6,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $brand-gold;
+    height: 245px;
+    padding-bottom: 10px;
+
+    p {
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .image-section {
+    div {
+      border: none;
+    }
+  }
 }

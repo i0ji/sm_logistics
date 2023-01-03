@@ -42,11 +42,29 @@
       align-items: center;
     }
 
-    .col-7 {
-      padding-left: 10px;
+    .header__logo {
+      img {
+        max-width: 100%;
+        height: auto;
+      }
     }
 
-    ul li {
+    .col-sm-2 {
+      border-left: 1px solid #ffffff;
+      height: 40px;
+    }
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+  }
+
+
+  ul {
+    padding-left: 48px;
+
+    li {
       display: inline;
       font-weight: 400;
       font-size: 16px;
@@ -82,11 +100,14 @@
     .col-2 {
       display: none;
     }
-
-    //ul li {
-    //  display: table-column;
-    //}
   }
 }
 
+//@media (max-width: 1000px) {
+//  .header {
+//    .space-div {
+//      display: none;
+//    }
+//  }
+//}
 
