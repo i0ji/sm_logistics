@@ -4,7 +4,7 @@
 @import 'header';
 @import 'image-section';
 @import 'trucking';
-
+@import 'service';
 
 // ---------- COMMON-SETTINGS
 * {
@@ -30,7 +30,8 @@
   font-size: 40px;
   line-height: 49px;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .common-text-m {
@@ -39,3 +40,12 @@
   line-height: 23px;
   color: #FFFFFF;
 }
+
+.brand-hr {
+  color: $brand-gold;
+  width: 90px;
+  height: 6px;
+  border-width: 6px;
+  opacity: 1;
+}
+

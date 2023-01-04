@@ -5,26 +5,53 @@
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 
   .col-6 {
+    max-width: 1000px;
+    max-height: 400px;
     display: inline-block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid $brand-gold;
-    height: 245px;
+    height: 135px;
     padding-bottom: 10px;
 
     .common-title-l {
       font-size: calc(14px + 2.8vw);
-      line-height: 6vw;
+      line-height: 75px;
     }
 
     p {
       color: #ffffff;
       text-align: center;
+    }
+  }
+}
+
+
+// ---------- MEDIA ----------
+@media (min-width: 1921px) {
+  .image-section {
+    background-repeat: repeat;
+
+    .col-6 {
+      .common-title-l {
+        font-size: 69px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .image-section {
+    .col-6 {
+      img {
+        margin-top: 10px;
+      }
     }
   }
 }

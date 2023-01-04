@@ -75,7 +75,7 @@
 }
 
 // ---------- MEDIA-QUERIES ----------
-@media (max-width: 416px) {
+@media (max-width: 500px) {
   .header__bot-line {
     height: 200px;
     display: flex;
@@ -96,8 +96,13 @@
       margin: 0;
     }
 
-    .col-2 {
+    .space-block {
       display: none;
+    }
+
+    ul {
+      display: table-column;
+      text-align: left;
     }
   }
 }

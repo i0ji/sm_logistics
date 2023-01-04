@@ -1,51 +1,104 @@
 // ---------- TRUCKING-BLOCK ----------
 .container-fluid {
   padding: 0;
+  margin: 0;
 }
 
 .trucking-block {
   height: 561px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  position: relative;
 
   div {
     height: 100%;
     padding: 0;
   }
 
-  &__left-block {
+  // ---------- TEXT-BLOCK
+  &__text-block.col-7 {
+    max-width: 1110px;
+    position: absolute;
+    height: 440px;
+    top: 18%;
     display: flex;
     flex-direction: column;
-    align-items: end;
-    justify-content: center;
 
-    hr {
-      color: $brand-gold;
-      width: 90px;
-      height: 6px;
-      border-width: 6px;
+    p {
+      padding-top: 25px;
     }
 
-  }
+    button {
+      position: absolute;
+      bottom: 24%;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      background-color: $brand-gold;
+      width: 220px;
+      height: 55px;
+      border: none;
+      transition: .2s all;
+    }
 
-  button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: $brand-gold;
-    width: 220px;
-    height: 55px;
-    border: none;
-    transition: .2s all;
-  }
+    button:hover,
+    button:active {
+      transform: scale(0.98);
+      opacity: 0.9;
+    }
 
-  button:hover,
-  button:active {
-    transform: scale(0.98);
-    opacity: 0.9;
+    .truck-image {
+      width: 445px;
+      height: 266px;
+      position: absolute;
+      right: 17%;
+      top: 11%;
+    }
+
+    .prev-arrow,
+    .next-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: transparent;
+      width: 159px;
+      height: 35px;
+      position: absolute;
+      right: 0;
+      color: $brand-gold;
+      padding: 0 0 0 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+     .prev-arrow {
+      bottom: 22%;
+    }
+
+    .next-arrow {
+      top: 10%;
+    }
   }
 }
+
+// ---------- MEDIA ----------
+@media (max-width: 1000px) {
+  .common-title-m {
+    //width: calc();
+  }
+}
+
+@media (max-width: 1600px) {
+  .truck-image {
+    display: none;
+  }
+}
+
