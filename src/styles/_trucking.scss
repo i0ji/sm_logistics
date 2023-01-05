@@ -1,5 +1,6 @@
 .trucking-block {
   display: flex;
+
   justify-content: center;
   position: relative;
 
@@ -15,7 +16,107 @@
 
   .content-block {
     z-index: 100;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
+  &__left-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    div {
+      padding-top: 30px;
+    }
+
+    p {
+      width: 400px;
+    }
+
+    button {
+      width: 220px;
+      height: 55px;
+      background: #C8A35F;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      border: none;
+    }
+  }
+
+  &__truck-image {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 445px;
+      height: 266px;
+    }
+  }
+
+  &__button-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 40px;
+
+    button {
+      display: flex;
+      align-items: center;
+      border: none;
+      background-color: transparent;
+      color: $brand-gold;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+
+      img {
+        padding: 0 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .trucking-block {
+    .content-block {
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      div {
+        padding: 0;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      button {
+        margin: 10px auto ;
+      }
+
+      .trucking-block__left-block {
+        min-width: 400px;
+        justify-content: space-between;
+      }
+
+      .trucking-block__truck-image {
+        display: none;
+      }
+
+      .trucking-block__button-block {
+        flex-direction: row;
+      }
+    }
+  }
 }

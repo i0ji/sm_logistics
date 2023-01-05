@@ -53,11 +53,45 @@
   color: #FFFFFF;
 }
 
-.brand-hr {
-  color: $brand-gold;
-  width: 90px;
-  height: 6px;
-  border-width: 6px;
-  opacity: 1;
+.title-block {
+    max-width: 388px;
+  height: 132px;
+
+  .brand-hr {
+    color: $brand-gold;
+    width: 90px;
+    height: 6px;
+    border-width: 6px;
+    opacity: 1;
+  }
 }
 
+
+// ---------- COMMON-BUTTONS-SETTINGS
+button {
+  transition: 0.3s all;
+}
+button:hover,
+button:active {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+
+
+@media (max-width: 1000px) {
+  .title-block {
+
+    .brand-hr {
+      margin: 20px auto;
+    }
+
+    .common-title-m {
+      padding-bottom: 10px;
+    }
+    .common-text-m {
+      padding: 10px;
+      text-align: center;
+    }
+  }
+}
