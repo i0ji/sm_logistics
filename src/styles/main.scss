@@ -21,6 +21,11 @@
   margin: 0;
 }
 
+.content-block {
+  max-width: 1108px;
+  height: 504px;
+}
+
 .common-title-l {
   font-weight: 700;
   font-size: 64px;
@@ -38,6 +43,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #FFFFFF;
+  z-index: 100;
 }
 
 .common-text-m {
