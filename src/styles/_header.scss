@@ -103,6 +103,18 @@
     ul {
       display: table-column;
       text-align: left;
+
+      li {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (min-width:500px ) and (max-width: 1100px) {
+  .header__bot-line {
+    ul li {
+      padding: 1px;
     }
   }
 }

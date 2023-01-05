@@ -5,14 +5,20 @@
 @import 'image-section';
 @import 'trucking';
 @import 'service';
+@import 'company';
 
 // ---------- COMMON-SETTINGS
 * {
   font-family: Roboto, sans-serif;
 }
 
+.container {
+  max-width: 1108px;
+}
+
 .container-fluid {
   padding: 0;
+  margin: 0;
 }
 
 .common-title-l {
