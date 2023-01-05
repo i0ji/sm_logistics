@@ -7,7 +7,7 @@
 @import 'service';
 @import 'company';
 
-// ---------- COMMON-SETTINGS
+// ---------- COMMON-BLOCK-SETTINGS
 * {
   font-family: Roboto, sans-serif;
 }
@@ -26,6 +26,8 @@
   height: 504px;
 }
 
+
+// ---------- TEXT-TITLES-SETTINGS
 .common-title-l {
   font-weight: 700;
   font-size: 64px;
@@ -78,19 +80,19 @@ button:active {
 }
 
 
-
+// ---------- MEDIA ----------
 @media (max-width: 1000px) {
   .title-block {
 
     .brand-hr {
       margin: 20px auto;
     }
-
     .common-title-m {
       padding-bottom: 10px;
+      text-align: center;
     }
     .common-text-m {
-      padding: 10px;
+      margin-top: 10px;
       text-align: center;
     }
   }
