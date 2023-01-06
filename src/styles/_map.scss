@@ -1,0 +1,12 @@
+// ---------- MAP-BLOCK ----------
+.map-block {
+  height: 450px;
+  background-image: url('../img/maps.png');
+  background-repeat: repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
