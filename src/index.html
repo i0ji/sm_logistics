@@ -15,7 +15,7 @@
             crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="bg-dark">
 
 <div class="container-fluid bg-dark">
 
@@ -23,7 +23,7 @@
     <!-- ---------- HEADER ---------- !-->
     <div class="header">
 
-        <!-- ---------- HEADER__TOP-LINE !-->
+        <!-- ---------- HEADER-TOP-LINE !-->
         <div class="container-fluid bg-golden">
             <div class="header__top-line container-xxl">
                 <div class="row">
@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <!-- ---------- HEADER__BOT-LINE !-->
+        <!-- ---------- HEADER-BOT-LINE !-->
         <div class="container-fluid bg-dark">
             <div class="header__bot-line container-xxl">
                 <div class="row">
@@ -76,8 +76,12 @@
 
 
     <!-- ---------- TRUCKING-BLOCK ---------- !-->
-    <div class="trucking-block">
-        <div class="grey-block bg-grey"></div>
+    <div class="trucking-block bg-grey">
+
+        <!-- ---------- CONTRAST-BLOCK !-->
+        <div class="contrast-block bg-dark"></div>
+
+        <!-- ---------- TRUCKING-CONTENT-BLOCK !-->
         <div class="container-xl content-block">
             <div class="trucking-block__left-block col-3">
                 <div class="title-block">
@@ -98,7 +102,7 @@
                 </button>
                 <button class="arrow-button">
                     <img src="img/prev.svg" alt="">
-                    <span>перд</span>
+                    <span>пред</span>
                 </button>
             </div>
         </div>
@@ -107,11 +111,15 @@
 
     <!-- ---------- SERVICE-BLOCK ---------- !-->
     <div class="service-block">
+
+        <!-- ---------- SERVICE-CONTENT-BLOCK !-->
         <div class="container-xl content-block">
             <div class="title-block">
                 <hr class="brand-hr">
                 <p class="common-title-m">услуги</p>
             </div>
+
+            <!-- ---------- SERVICE-BUTTON-BLOCK !-->
             <div class="service-block__button-block">
                 <div class="col-3">
                     <button class="service-button">
@@ -185,12 +193,63 @@
                         <span class="text-plane">Авиаперевозки</span>
                     </button>
                 </div>
-
-
-
             </div>
         </div>
     </div>
+
+
+    <!-- ---------- COMPANY-BLOCK ---------- !-->
+    <div class="company-block">
+
+        <!-- ---------- COMPANY-CONTENT-BLOCK !-->
+        <div class="container-xl content-block">
+
+            <div class="title-block">
+                <hr class="brand-hr">
+                <p class="common-title-m">о компании</p>
+            </div>
+            <p class="common-text-m">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
+                Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий
+                безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для
+                распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и
+                перешагнул в электронный дизайн.</p>
+            <!-- ---------- COMPANY-CONTENT-BLOCK !-->
+            <div class="company-block__benefits">
+                <div class="col-4">
+                    <div class="company-block__benefits-button">
+                        <p>48</p>
+                        <p>офисов</p>
+                        <p>в Европе и СНГ</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="company-block__benefits-button">
+                        <p>361</p>
+                        <p>грузовик</p>
+                        <p>Volvo, Scania</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="img/about.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="img/about.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <div class="company-block__benefits-button">
+                        <p>1500</p>
+                        <p>Сотрудников</p>
+                        <p>профессионалов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------- CONTRAST-BLOCK !-->
+        <div class="contrast-block bg-grey"></div>
+    </div>
+
+
 </div>
 
 </body>

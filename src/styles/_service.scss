@@ -88,11 +88,21 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .service-block {
+    .title-block {
+      max-width: 100%;
+    }
+  }
+}
+
 @media (max-width: 900px) {
   .service-block {
     height: 100vh;
 
     &__button-block {
+      justify-content: center;
+
       .col-3 {
         width: 33%;
       }

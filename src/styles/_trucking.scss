@@ -1,11 +1,10 @@
 // ---------- TRUCKING-BLOCK ----------
 .trucking-block {
   display: flex;
-
   justify-content: center;
   position: relative;
 
-  .grey-block {
+  .contrast-block {
     position: absolute;
     z-index: 0;
     top: 0;
@@ -15,6 +14,7 @@
     width: 410px;
   }
 
+  // ---------- TRUCKING-CONTENT-BLOCK
   .content-block {
     z-index: 100;
     display: flex;

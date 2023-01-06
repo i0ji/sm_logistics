@@ -1,34 +1,94 @@
 // ---------- COMPANY-BLOCK ----------
 .company-block {
-  height: 482px;
-  max-width: 1100px;
-  margin: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 
+  // ---------- CONTRAST-BLOCK
+  .contrast-block {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    width: 410px;
+  }
 
-  // ---------- TEXT-BLOCK
-  &__text-block {
-    padding: 0;
+  // ---------- COMPANY-CONTENT-BLOCK
+  .content-block {
+    z-index: 100;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
+    justify-content: center;
 
-    .title-block {
-      margin-bottom: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 110px;
+    .common-text-m {
+      width: 509px;
+      height: 179px;
     }
+    // ---------- BENEFITS-BLOCK
+    .company-block__benefits {
+      display: flex;
+      flex-flow: row wrap;
+      width: 56%;
 
-    .text-block {
-      padding-top: 10px;
-      font-weight: 400;
-      font-size: 17px;
-      line-height: 23px;
-      width: 465px;
-      letter-spacing: -0.1px;
+
+      .col-4 {
+        width: 200px;
+        height: 160px;
+
+        .company-block__benefits-button {
+          height: 100%;
+          width: 100%;
+          background-color: #FFFFFF;
+          color: $brand-dark;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          p:nth-child(1) {
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 75px;
+            text-align: center;
+            letter-spacing: 0.05em;
+          }
+          p:nth-child(2) {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            margin-bottom: 9px;
+          }
+          p:nth-child(3) {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+          }
+        }
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
     }
   }
 }
 
 
+// ---------- COMPANY MEDIA ----------
+@media (max-width: 1157px) {
+  .content-block {
+
+    .company-block {
+      flex-flow: row wrap;
+      flex-direction: column;
+    }
+  }
+}
