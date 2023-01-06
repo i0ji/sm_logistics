@@ -10,11 +10,22 @@
   justify-content: space-evenly;
   text-align: center;
 
-
   // ---------- IMAGE-TEXT-BLOCK
   &__text-block {
     border: 1px solid $brand-gold;
     min-width: 400px;
+  }
+}
 
+
+// ---------- IMAGE-BLOCK ----------
+@media (max-width: 800px) {
+  .image-block {
+    .common-title-l {
+      display: flex;
+      justify-content: center;
+      max-width: 350px;
+      font-size: 3rem;
+    }
   }
 }

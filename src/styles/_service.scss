@@ -79,6 +79,7 @@
 // ---------- SERVICE-BLOCK MEDIA ----------
 @media (max-width: 1130px) {
   .service-block {
+    margin-bottom: 30px;
 
     &__button-block {
       .col-3 {
@@ -98,7 +99,7 @@
 
 @media (max-width: 900px) {
   .service-block {
-    height: 72vh;
+    height: 680px;
 
     &__button-block {
       justify-content: center;
@@ -113,7 +114,7 @@
 
 @media (max-width: 600px) {
   .service-block {
-    height: 100vh;
+    height: 860px;
   }
 }
 
