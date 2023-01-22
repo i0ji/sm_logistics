@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --hot --mode development",
     "dev": "webpack --mode development",
-    "prod": "webpack --mode production"
+    "prod": "webpack --mode production",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "webpack",
