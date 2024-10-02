@@ -24,15 +24,9 @@
   "dependencies": {
     "css-loader": "^7.1.2",
     "mini-css-extract-plugin": "^2.9.1",
-<<<<<<< HEAD
     "sass": "^1.79.4",
     "sass-loader": "^16.0.2",
     "webpack": "^5.95.0",
-=======
-    "sass": "^1.77.8",
-    "sass-loader": "^16.0.1",
-    "webpack": "^5.94.0",
->>>>>>> 567a9ab0d0f029de0e3abd8db7a24336060cddaf
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
   },
