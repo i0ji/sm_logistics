@@ -1,13 +1,13 @@
 // ---------- IMPORT LIST ----------
-@import 'reset';
-@import 'color';
-@import 'header';
-@import 'image-section';
-@import 'trucking';
-@import 'service';
-@import 'company';
-@import 'map';
-@import 'footer';
+@import "reset";
+@import "color";
+@import "header";
+@import "image-section";
+@import "trucking";
+@import "service";
+@import "company";
+@import "map";
+@import "footer";
 
 // ---------- COMMON-BLOCK-SETTINGS
 * {
@@ -34,7 +34,6 @@
   margin-top: 80px;
 }
 
-
 // ---------- TEXT-TITLES-SETTINGS
 .common-title-l {
   font-weight: 700;
@@ -52,7 +51,7 @@
   line-height: 49px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   z-index: 100;
 }
 
@@ -60,11 +59,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .title-block {
-    max-width: 388px;
+  max-width: 388px;
   height: 132px;
 
   .brand-hr {
@@ -76,7 +75,6 @@
   }
 }
 
-
 // ---------- COMMON-BUTTONS-SETTINGS
 button {
   transition: 0.3s all;
@@ -87,11 +85,9 @@ button:active {
   opacity: 0.9;
 }
 
-
 // ---------- MEDIA ----------
 @media (max-width: 1000px) {
   .title-block {
-
     .brand-hr {
       margin: 20px auto;
     }
@@ -105,4 +101,3 @@ button:active {
     }
   }
 }
-

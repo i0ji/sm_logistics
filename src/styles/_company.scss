@@ -5,7 +5,6 @@
   position: relative;
   align-items: center;
 
-
   // ---------- CONTRAST-BLOCK
   .contrast-block {
     position: absolute;
@@ -33,7 +32,7 @@
 
   // ---------- COMPANY-BENEFITS-BLOCk
   &__benefits-block {
-    padding: 50px 0 0 0 ;
+    padding: 50px 0 0 0;
     width: 600px;
     height: 318px;
     display: flex;
@@ -48,8 +47,8 @@
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      background-color: #FFFFFF;
-      border: .25px solid $brand-gold;
+      background-color: #ffffff;
+      border: 0.25px solid $brand-gold;
 
       p:nth-child(1) {
         font-weight: 700;
@@ -87,7 +86,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
@@ -97,7 +96,6 @@
     justify-content: center;
 
     .content-block {
-
       .company-block__benefits-block {
         height: 100%;
       }
@@ -108,7 +106,6 @@
         .col-7 {
           padding-top: 15px;
         }
-
       }
     }
 
@@ -135,7 +132,6 @@
 
 @media (max-width: 1000px) {
   .company-block {
-
     .row {
       align-items: center;
     }
@@ -143,17 +139,16 @@
     .content-block {
       height: 645px;
     }
-
   }
 }
 
 @media (max-width: 700px) {
   .company-block {
     .content-block {
-        height: 655px;
-      }
+      height: 655px;
     }
   }
+}
 
 @media (max-width: 619px) {
   .company-block {

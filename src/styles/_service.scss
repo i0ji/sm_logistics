@@ -40,7 +40,7 @@
           text-align: center;
           letter-spacing: 0.05em;
           text-transform: uppercase;
-          color: #FFFFFF;
+          color: #ffffff;
         }
       }
 
@@ -48,7 +48,6 @@
         background-color: $brand-gold;
         opacity: 1;
         transform: scale(0.98);
-
 
         img:nth-child(1) {
           display: flex;
@@ -108,7 +107,6 @@
         width: 33%;
       }
     }
-
   }
 }
 
@@ -120,7 +118,6 @@
 
 @media (max-width: 580px) {
   .service-block {
-
     .service-block__button-block {
       .col-3 {
         width: 50%;
@@ -128,7 +125,3 @@
     }
   }
 }
-
-
-
-

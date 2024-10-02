@@ -1,7 +1,7 @@
 // ---------- IMAGE-BLOCK ----------
 .image-block {
   height: 620px;
-  background-image: url('../img/intro.jpg');
+  background-image: url("../img/intro.jpg");
   background-repeat: repeat;
   background-position: center;
   display: flex;
@@ -23,7 +23,6 @@
     bottom: 50px;
   }
 }
-
 
 // ---------- IMAGE-BLOCK ----------
 @media (max-width: 800px) {

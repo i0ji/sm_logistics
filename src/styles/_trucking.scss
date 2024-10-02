@@ -39,14 +39,14 @@
     button {
       width: 220px;
       height: 55px;
-      background: #C8A35F;
+      background: #c8a35f;
       font-weight: 500;
       font-size: 16px;
       line-height: 25px;
       text-align: center;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: #FFFFFF;
+      color: #ffffff;
       border: none;
     }
   }
@@ -89,7 +89,6 @@
   }
 }
 
-
 // ---------- TRUCKING MEDIA ----------
 @media (max-width: 1000px) {
   .trucking-block {
@@ -112,7 +111,7 @@
       }
 
       button {
-        margin: 10px auto ;
+        margin: 10px auto;
       }
 
       .trucking-block__left-block {

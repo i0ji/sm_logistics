@@ -1,6 +1,5 @@
 // ---------- FOOTER ----------
 .footer {
-
   .text-dark {
     color: $brand-dark;
     padding-top: 10px;
@@ -21,7 +20,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 0.8;
     flex-flow: row wrap;
   }
@@ -42,7 +41,6 @@
     align-items: center;
   }
 }
-
 
 // ---------- FOOTER MEDIA ----------
 @media (max-width: 980px) {
