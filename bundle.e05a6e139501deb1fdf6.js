@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("test/logistics"),console.log("26.10.24")})();
