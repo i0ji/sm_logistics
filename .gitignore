@@ -2,3 +2,5 @@
 /templates/
 /dist/
 /.idea/
+
+pnpm-lock.yaml
