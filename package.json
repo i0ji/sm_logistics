@@ -23,18 +23,18 @@
   "license": "ISC",
   "dependencies": {
     "css-loader": "^7.1.2",
-    "mini-css-extract-plugin": "^2.9.2",
-    "sass": "^1.89.2",
+    "mini-css-extract-plugin": "^2.9.4",
+    "sass": "^1.90.0",
     "sass-loader": "^16.0.5",
-    "webpack": "^5.100.2",
+    "webpack": "^5.101.3",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
-    "copy-webpack-plugin": "^13.0.0",
+    "copy-webpack-plugin": "^13.0.1",
     "gh-pages": "^6.3.0",
-    "html-webpack-plugin": "^5.6.3",
+    "html-webpack-plugin": "^5.6.4",
     "webpack-dev-middleware": "7.4.2"
   },
   "pnpm": {
