@@ -1,13 +1,13 @@
-// ---------- IMPORT LIST ----------
-@import "reset";
-@import "color";
-@import "header";
-@import "image-section";
-@import "trucking";
-@import "service";
-@import "company";
-@import "map";
-@import "footer";
+// ---------- use LIST ----------
+@use 'reset';
+@use 'colors' as *;
+@use 'header';
+@use 'image-section';
+@use 'trucking';
+@use 'service';
+@use 'company';
+@use 'map';
+@use 'footer';
 
 // ---------- COMMON-BLOCK-SETTINGS
 * {
